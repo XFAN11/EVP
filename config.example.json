@@ -1,0 +1,26 @@
+{
+  "_comment": "Example config. Copy this file to config.json and edit paths for your machine.",
+  "fasta": "gene_editing_variant_prioritization/input/example.fasta",
+  "pdb_dir": "gene_editing_variant_prioritization/input",
+  "outdir": "gene_editing_variant_prioritization/output/example_run",
+
+  "saprot_repo": "SaProt-main",
+  "gpsite_repo": "GPSite-main",
+
+  "saprot_env": "saprot",
+  "gpsite_env": "GPSite",
+  "conda_exe": "conda",
+
+  "saprot_model": "/path/to/SaProt_650M_AF2",
+  "saprot_device": "cuda",
+  "foldseek": "SaProt-main/bin/foldseek",
+  "chain": "A",
+  "plddt_mask": true,
+
+  "_comment_prot_t5": "Set prot_t5_path to a local ProtT5-XL-UniRef50 model directory, or null to use the path hard-coded in GPSite-main/script/predict.py.",
+  "prot_t5_path": null,
+  "gpu": "0",
+  "batch": 4,
+  "mutant_top_n": 10,
+  "skip_mutant_gpsite": false
+}
