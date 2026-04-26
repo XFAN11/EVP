@@ -1,0 +1,2 @@
+ID	Length	pLDDT	pTM	DNA_Binding	RNA_Binding	Peptide_Binding	Protein_Binding	ATP_Binding	HEM_Binding	ZN_Binding	CA_Binding	MG_Binding	MN_Binding
+B4FLA3	88	81.4	0.765	0.437	0.525	0.535	0.860	0.408	0.408	0.227	0.134	0.199	0.194
