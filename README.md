@@ -1,4 +1,4 @@
-# Gene Editing Variant Prioritization Pipeline
+# Editing Variant Prioritization
 
 This folder provides a lightweight wrapper for a prospective gene-editing analysis framework. It combines SaProt mutational-effect prediction with GPSite binding prediction to help prioritize residues and substitutions for allele tuning, variant interpretation, and downstream validation.
 
